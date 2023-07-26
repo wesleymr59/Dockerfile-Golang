@@ -1,18 +1,17 @@
 
 # Dockerfile Golang
 
-Dockerfile para codigos em Golang
-
+Dockerfile for Golang code
 
 ## Instalação
 
-buidar imagem docker -> 
+Build docker image
 
 ```bash
 docker build . -t server-golang
 ```
 
-rodar container compartilhado a porta 8080 (alterar conforme a sua necessidade)
+Start shared container on port 8080 (change as needed)
 ```bash
 docker run -p 8080:8080 server-golang
 ```
